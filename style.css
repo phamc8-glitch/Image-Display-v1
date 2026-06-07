@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-display-bg {
+  background-color: #b2b2b2;
+  position: absolute;
+  height: 844px;
+  width: 844px;
+  left: 71px;
+  top: 178px;;
+}
+
+.version-navigation {
+  background-color: #000000;
+  position: absolute;
+  height: 70px;
+  width: 844px;
+  left: 71px;
+  top: 952px;
+}
+
+.version-btn {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  height: 68px;
+  width: 410px;
+  cursor: pointer;
+}
+
+.prev-pages-btn {
+  background-color: #2e2e2e;
+  position: absolute;
+  height: 42px;
+  width: 36px;
+  top: 560px;
+  left: 125.5px; 
+  cursor: pointer;
+}
+.next-pages-btn {
+  background-color: #2e2e2e;
+  position: absolute;
+  height: 42px;
+  width: 36px;
+  top: 560px;
+  left: 823.5px; 
+  cursor: pointer;
+}
+
+.img-container {
+  position: absolute;
+  height: 674px;
+  width: 521px;
+  top: 234px;
+  left: 236px;
+}
+
+.img-container img{
+  object-fit: cover;
+  position: absolute;
+  height: 674px;
+  width: 521px;
+}
+
+.file-selection {
+  display: grid;
+  position: absolute;
+  height: 1708px;
+  width: 917px;
+  left: 959px;
+  top: 174px;
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+.file-selection button{
+  width: 430px;
+  height: 517px;
+  object-fit: cover;
+}
