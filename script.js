@@ -35,7 +35,7 @@ const prevButtonPrint = document.getElementById("prevPrint");
 
 
 // file-selection buttons
-const bme1Button = document.getElementById("BME1");
+const bme1Button = document.getElementById("cardBME1");
 
 bme1Button.addEventListener("click", () => {
   currentIndex=0
@@ -50,7 +50,7 @@ bme1Button.addEventListener("click", () => {
   digitalVer.disabled = true;
 });
 
-const bme2Button = document.getElementById("BME2");
+const bme2Button = document.getElementById("cardBME2");
 
 bme2Button.addEventListener("click", () => {
   currentIndex=2
