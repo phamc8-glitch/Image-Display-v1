@@ -5,19 +5,19 @@
 .img-display-bg {
   background-color: #b2b2b2;
   position: absolute;
-  height: 844px;
-  width: 844px;
+  height: 700px;
+  width: 700px;
   left: 71px;
-  top: 178px;;
+  top: 200px;
 }
 
 .version-navigation {
   background-color: #000000;
   position: absolute;
   height: 70px;
-  width: 844px;
+  width: 700px;
   left: 71px;
-  top: 952px;
+  top: 900px;
 }
 
 .version-btn {
@@ -25,56 +25,55 @@
   color: #ffffff;
   font-size: 18px;
   height: 68px;
-  width: 410px;
+  width: 340px;
+  cursor: pointer;
+}
+
+.next-pages-btn {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 560px;
+  left: 698px; 
   cursor: pointer;
 }
 
 .prev-pages-btn {
-  background-color: #2e2e2e;
   position: absolute;
-  height: 42px;
-  width: 36px;
+  height: 30px;
+  width: 30px;
   top: 560px;
-  left: 125.5px; 
-  cursor: pointer;
-}
-.next-pages-btn {
-  background-color: #2e2e2e;
-  position: absolute;
-  height: 42px;
-  width: 36px;
-  top: 560px;
-  left: 823.5px; 
+  left: 110px; 
   cursor: pointer;
 }
 
 .img-container {
   position: absolute;
-  height: 674px;
-  width: 521px;
-  top: 234px;
-  left: 236px;
+  height: 615px;
+  width: 475px;
+  top: 255px;
+  left: 180px;
 }
 
 .img-container img{
   object-fit: cover;
   position: absolute;
-  height: 674px;
-  width: 521px;
+  height: 615px;
+  width: 475px;
 }
 
 .file-selection {
   display: grid;
   position: absolute;
-  height: 1708px;
-  width: 917px;
-  left: 959px;
-  top: 174px;
+  height: 1504px;
+  width: 825px;
+  left: 830px;
+  top: 200px;
   grid-template-columns: repeat(2, 1fr); 
 }
 
 .file-selection button{
-  width: 430px;
-  height: 517px;
+  width: 394px;
+  height: 475px;
   object-fit: cover;
 }
